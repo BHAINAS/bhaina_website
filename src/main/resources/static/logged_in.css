@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+	padding:0px;
+	background-color:#a38787;
+    font-family:poppins;	
+}
+nav{
+    display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:80px;
+	background-color:#d8c9c9;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 35px;
+	min-width: 825px;
+}
+nav a{
+    text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: black;
+}
+h3{
+	font-size: 25px;
+    font-family: rampart one;
+}
+.about-container{
+	width:80%;
+	height:330px;
+	background:#ffffff;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	left: 10%;
+	position: relative;
+	justify-content:space-evenly;
+	align-items: center;
+	top: 50px;
+	min-width: 600px;
+	margin-bottom: 100px;
+}
+.about-container img{
+	height:250px;
+	border-radius: 10px;
+	
+}
+.box-container{
+	margin: 50px;
+}
+/* .box-container p{
+	font-size: 25px;
+	font-weight: bold;
+} */
+
+
+
+.box-1, .box-2, .box-3{
+	width:300px;
+	height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-right: 50px;
+	display: block;
+	border-radius: 10px;
+}
+form{
+    text-align: center;
+	margin-top: 80px;
+}
+
+.box-1 input{
+    width: 260px;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+	padding: 5px;
+}
+.box-2 input{
+    width: 260px;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+	padding: 5px;
+}
+.box-3 input{
+    width: 260px;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+	padding: 5px;
+}
+
+.box-container{
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 5px 17px 22px;
+}
+.box-1{
+	background-image: url("mason.png")
+	}
+.box-2{
+	background-image: url("everything.png");
+}
+.box-3{
+	background-image: url("garderning.jpg");
+}
+#service{
+width: 90px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#submit{
+	width:130px;
+	height:42px;
+	border-radius:7px;
+	font-family:calibri;
+	font-weight:bold;
+	position: relative;
+	align-items: center;
+	margin-left: 28%;
+}
+.footer {
+	bottom: 0;
+	height: auto;
+	width: 100%;
+	font-family: calibri;
+	padding-top: 40px;
+	color: rgb(10, 10, 10);	
+	text-align: center;
+	background-color:#d8c9c9;
+	margin-bottom: -16px;
+	min-width: 825px;
+}
+
