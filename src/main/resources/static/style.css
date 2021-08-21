@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#a38787;
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	height:95vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	background-color:#e7e1e1;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+	
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+ 
+nav ul li a{
+	margin:30px;
+	font-family:myriad pro regular;
+	color:#505050;
+	font-size: 15px;
+	font-weight:700;
+}
+.logo{
+	font-family:RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
+}
+.model{
+	height:475px;
+	position:absolute;
+	bottom:145px;
+	left:78%;
+	transform: translateX(-75%);
+	border-radius: 18px;
+}
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight:bold;
+	color:#6d6d6d;
+	font-size:22px;
+}
+.text-container p:nth-child(2){
+	font-family:calibri;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#1a1a1a;
+	font-size:60px;
+	
+}
+.text-container p:nth-child(3){
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size:30px;
+	line-height:30px;
+}
+ 
+.text-container p{
+	margin:45px 0px 25px;
+	line-height:0px;
+}
+.text-container{
+	position: absolute;
+	left:13%;
+	top:42%;
+	transform:translate(-13%,-42%);
+}
+button:active{
+	transform:scale(1.1);
+}
+.about-container{
+	width:80%;
+	height:330px;
+	background:#ecdfdf;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: relative;
+	justify-content:space-evenly;
+	align-items: center;
+}
+.bhaina-logo{
+	border-radius: 16px;
+}
+.about-container img{
+	height:250px;
+}
+.about-text{
+	width:500px;
+} 
+.about-text p:nth-child(1){
+	color:#403e3e;
+	font-family: myriad pro;
+	font-weight:bold;
+	font-size:23px;
+	line-height:0px;
+}
+.about-text p:nth-child(2),.about-text p:nth-child(3){
+	color:#7e7d7d;
+	font-family:calibri;
+	font-size:16px;
+}
+.jp-dash{
+    width:130px;
+	height:42px;
+	border-radius:10px;
+	font-family:calibri;
+	font-weight:bold;
+	font-size: 14px;
+	outline:none;
+	margin:0px 10px;	
+}
+.cp-sethi{
+    width:130px;
+	height:42px;
+	border-radius:10px;
+	font-family:calibri;
+	font-weight:bold;
+	font-size: 14px;
+	outline:none;
+	margin:0px 10px;
+}
+.services{
+	height: 600px;
+	background-color: #E7E1E1;
+	padding: 2% 10% 0px 10%;
+}
+.services-text p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color: #3e3d3d;
+	font-size: 30px;
+	line-height: 0px;
+}
+.services-text p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	color: #3e3e3d;
+	font-size: 15px;
+	line-height: 5px;
+}
+.services-text p:nth-child(3){
+	font-family: calibri;
+	color: #7e7d7d;
+}
+.services-text{
+	width: 500px;
+	margin: 50px 0px;
+}
+.box-1, .box-2, .box-3{
+	width:300px;
+	height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.box-container{
+	display: flex;
+	justify-content: space-between;
+}
+.box-1{
+	background-image: url("black.jpg")
+	}
+.box-2{
+	background-image: url("black.jpg");
+}
+.box-3{
+	background-image: url("black.jpg");
+}
+.box-1 span,
+.box-2 span,
+.box-3 span{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: calibri;
+	font-weight: bold;
+}
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2){
+	color:#FFFFFF;
+	font-family:calibri;
+	font-size: 23px;
+	line-height: 0px;
+}
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3){
+	color:#FFFFFF;
+	font-family: calibri;
+	text-align: center;
+	width: 230px;
+	margin: 0px 0px 20px 0px;
+}
+#readmore{
+	width:130px;
+	height:42px;
+	border-radius:7px;
+	font-family:calibri;
+	font-weight:bold;
+}
+.footer {
+	height: auto;
+	width: 100vw;
+	font-family: calibri;
+	padding-top: 40px;
+	color: rgb(10, 10, 10);
+	
+	
+}
+.footer-content{
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
